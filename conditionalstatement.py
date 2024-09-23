@@ -111,6 +111,4 @@ elif discriminant==0:
     root=(-b)/(2*a)
     print(root)
 else:
-    print('Roots are imaginary')
-
-
+    print("Roots are imaginary")
