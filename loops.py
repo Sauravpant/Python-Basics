@@ -121,7 +121,7 @@ while num!=0:
     num//=10
 
 print("The reverse is",rev)
-#Fibonacci series
+
 
 
 
