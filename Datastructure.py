@@ -1,7 +1,5 @@
 #List in python(Allows repeatation)
 
-from tkinter import TRUE
-
 
 myList=["Apple","Banana","Orange","Potato","Apple"]
 for val in myList:
