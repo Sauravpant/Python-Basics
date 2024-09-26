@@ -55,6 +55,24 @@ print(add)
 val.sort()  #Sorts the list
 print(val)
 
+#Printing the square of a list
+myList=[1,2,3,4,5,6,7,8]
+for val in myList:
+    print(val*val)
+
+for i in range(len(myList)):
+    myList[i]=myList[i]**2
+
+print(myList)
+
+#Removing duplicates from a : list
+list1=["Apple","Banana","Mango","Apple"]
+list2=[]
+for val in range(len(list1)):
+    if list1[val] not in list2:
+        list2.append(list1[val])
+print(list2)
+    
 
 
 
@@ -121,3 +139,38 @@ inList=dis.values()
 print(inList)
 dis["address"]="kanchanpur"
 print(dis)
+
+
+#Creating a dictionary and performing various operations
+dict={
+    "Name":"saurav",
+    "Age":18,
+    "Major subject":"Web development",
+    "Gpa":3.4
+}
+
+print(dict)
+list1=dict.keys()
+list2=dict.values()
+
+print(dict["Major subject"])
+
+dict["Gpa"]=3.9
+print(dict)
+dict["Graduation year"]=2027
+print(dict)
+del dict["Age"]
+print(dict)
+for key in dict:
+    print("key:",key,"Value:",dict[key])
+
+
+for key in dict:
+    if key=="Age":
+        print("Age is found")
+    if key=="Gpa":
+        print("Gpa is found")
+
+
+dict.clear()
+print(dict)
