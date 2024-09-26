@@ -116,6 +116,4 @@ print(factorial(5))
 
 #To check whether the number is plaindrome
 
-        
-
 
