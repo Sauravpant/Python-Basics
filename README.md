@@ -1,5 +1,5 @@
 # Python-Basics
-This repository contains the basics of python 
+This repository contains the basics of python <br>
 -Input/output 
 -Data types and type conversion
 -Operators
